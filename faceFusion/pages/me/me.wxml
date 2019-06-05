@@ -1,0 +1,60 @@
+<!--me.wxml-->
+<view class="top-me"> 
+  <view class="userinfo">
+    <view  class="userinfo-avatar">
+    <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName" class="userinfo-nickname"></open-data>
+  </view>
+  
+  <view class='logBlock'>
+    <view class='blockLeft'>
+    <text class='blockHeader'>Type: Face Fusion</text>
+    <text class='blockDescription'>Time: 2019.06.03</text>
+    </view>
+    <view class='blockRight'>
+      <button class='centerBlockButton' bindtap='facefusionImage' plain='true'>></button>
+    </view>   
+  </view>
+
+    <view class='logBlock'>
+    <view class='blockLeft'>
+    <text class='blockHeader'>Type: Face Detect</text>
+    <text class='blockDescription'>Time: 2019.06.03</text>
+    </view>
+    <view class='blockRight'>
+      <button class='centerBlockButton' plain='true'>></button>
+    </view>   
+  </view>
+
+    <view class='logBlock'>
+    <view class='blockLeft'>
+    <text class='blockHeader'>Type: Face Recognize</text>
+    <text class='blockDescription'>Time: 2019.06.03</text>
+    </view>
+    <view class='blockRight'>
+      <button class='centerBlockButton' plain='true'>></button>
+    </view>  
+  </view>
+  
+  <view class='logBlock'>
+    <view class='blockLeft'>
+    <text class='blockHeader'>Type: Face Fusion</text>
+    <text class='blockDescription'>Time: 2019.06.03</text>
+    </view>
+    <view class='blockRight'>
+      <button class='centerBlockButton' plain='true'>></button>
+    </view>   
+  </view>
+
+  <view class='logBlock'>
+    <view class='blockLeft'>
+    <text class='blockHeader'>Type: Face Fusion</text>
+    <text class='blockDescription'>Time: 2019.05.08</text>
+    </view>
+    <view class='blockRight'>
+      <button class='centerBlockButton' plain='true'>></button>
+    </view>   
+  </view>
+
+</view>  

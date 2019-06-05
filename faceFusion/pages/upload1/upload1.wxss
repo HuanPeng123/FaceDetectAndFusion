@@ -1,0 +1,30 @@
+
+.centerTop{
+  height: 10%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  padding: 30rpx;
+  background-color: rgb(50, 177, 177);
+}
+
+.imageInput{
+  width: 600rpx;
+  height: 800rpx;
+  padding: 10%;
+}
+.uploadPageButtons{
+  display: flex;
+  flex-direction: row;
+}
+
+.uploadButton{
+  background-color: rgb(7, 170, 7);
+  width: 200rpx;
+  border-radius: 30rpx;
+}
+.cancelButton{
+ width: 200rpx;
+ border-radius: 30rpx;
+ background-color: gainsboro;
+}

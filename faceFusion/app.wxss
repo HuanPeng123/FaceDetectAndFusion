@@ -1,0 +1,27 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx;
+  box-sizing: border-box;
+} 
+
+page{
+  background-color: #f6faff;
+}
+
+.top{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.spic {
+  width: 68rpx;
+  height: 68rpx;
+  margin: 5rpx;
+  border-radius: 20rpx;
+}

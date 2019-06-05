@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="top">
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="2000" duration="1000" circular='true'>  
+      <block wx:for="{{movies}}" wx:for-index="index" wx:key="">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper>  
+</view>
+<view class='header'>
+<text class='header1'>Finds 系列----</text>
+</view>
+<view class='homeContainer'>
+  <text class='header2'>发型推荐功能体验</text>
+  <view class='homeDescription'>
+    <text class='headerBiggerText'>简介：结合人脸特征点检测、相似度匹配、人脸融合等技术，在海量图片库中为你挑选最合适的发型 </text>
+  </view>
+  <button class="homeButton" bindtap='navigateToFusion'>立即体验</button>
+</view>
+
+
+

@@ -1,0 +1,12 @@
+
+<view class='centerTop'>
+<text> Finds--技术体验中心 </text>
+</view>
+<view class='imageInput'>
+   <image src="{{tempFilePaths}}" style="width: 300px; height: 400px;"/> 
+</view>
+
+<view class='uploadPageButtons'>
+  <button class='cancelButton' bindtap='navigateToTakePhoto'>{{buttonName2}}</button>
+  <button class='uploadButton' bindtap='uploadImageForFusion'>{{buttonName1}}</button>
+</view>

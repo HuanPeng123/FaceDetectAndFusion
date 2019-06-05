@@ -1,0 +1,90 @@
+<!--center.wxml-->
+<view class='centerTop'>
+<text> Finds--技术体验中心 </text>
+</view>
+
+<view class='centerContent'>
+
+<!--
+  <view class='centerLeftTab'>
+    <view class='singleRightTab'>
+    <text class='tabText'>>人脸检测</text>
+    </view>
+    <view class='singleRightTab'>
+    <text class='tabText'>>人脸融合</text>
+    </view>
+    <view class='singleRightTab'>
+    <text class='tabText'>>人脸匹配</text>
+    </view>
+  </view>
+-->
+  <view class='centerRightContent'>
+    <text class='blockHeader'>人脸检测</text>
+    <text class='blockDescription'>\t使用机器学习方法进行，人脸关键点检测,框出输入图片中包含的人脸.</text>
+      <swiper class="centerSwiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000" circular='true'>  
+        <block wx:for="{{moviesDetect}}" wx:for-index="index" wx:key="">  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+      </swiper> 
+     <button class="centerButton" bindtap='navigateToDetect'>立即体验</button>
+  </view>
+
+    <view class='centerRightContent'>
+    <text class='blockHeader'>人脸相似度匹配</text>
+    <text class='blockDescription'>\t使用神经网络识别人脸、提取面部特征，在模特库中匹配出相似度最高的人脸图片.</text>
+      <swiper class="centerSwiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000" circular='true'>  
+        <block wx:for="{{moviesSimilarity}}" wx:for-index="index" wx:key="">  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+      </swiper> 
+     <button class="centerButton" bindtap='navigateToFusion'>立即体验</button>
+  </view>
+
+    <view class='centerRightContent'>
+    <text class='blockHeader'>人脸融合</text>
+    <text class='blockDescription'>\t将输入图片的面部特征融合到模特图片，生成多重特征人脸图片.</text>
+      <swiper class="centerSwiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000" circular='true'>  
+        <block wx:for="{{moviesFusion}}" wx:for-index="index" wx:key="">  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+      </swiper> 
+     <button class="centerButton" bindtap=''>立即体验</button>
+  </view>
+<!--
+  <view class='centerRightContent'>
+    <view class='centerBlock1'>
+      <view class='blockLeft'>
+        <text class='blockHeader'>人脸检测</text>
+        <text class='blockDescription'>\t使用机器学习方法进行，人脸关键点检测,框出输入图片中包含的人脸.</text>
+      </view>
+      <view class='blockRight'>
+        <button class='centerBlockButton' plain='true'>></button>
+      </view>
+    </view>
+    <view class='centerBlock2'>
+      <view class='blockLeft'>
+        <text class='blockHeader'>人脸相似度匹配</text>
+        <text class='blockDescription'>\t使用神经网络识别人脸、提取面部特征，在模特库中匹配出相似度最高的人脸图片.</text>
+      </view>
+      <view class='blockRight'>
+        <button class='centerBlockButton' plain='true'>></button>
+      </view>
+    </view>
+    <view class='centerBlock1'>
+      <view class='blockLeft'>
+        <text class='blockHeader'>人脸融合</text>
+        <text class='blockDescription'>\t将输入图片的面部特征融合到模特图片，生成多重特征人脸图片.</text>
+      </view>
+      <view class='blockRight'>
+        <button class='centerBlockButton' plain='true'>></button>
+      </view>
+    </view>
+  </view>
+-->
+</view>

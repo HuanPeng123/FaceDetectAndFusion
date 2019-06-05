@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view>
+  <view class="camera">
+    <camera
+      device-position="front"
+      flash="off"
+      binderror="error"
+      style="width: 100%; height: 100%;"
+    >
+    <cover-view class='cameraCoverView'></cover-view>
+    <cover-view class='topRight'>
+      <button class='selectButton' plain='true' bindtap='chooseimage'>从相册中选择</button>
+    </cover-view>
+    <cover-view class='cameraButtonView'>
+      <button class='cameraButton' bindtap='takePhoto'>></button>
+    </cover-view>
+    </camera>
+  </view>
+</view>

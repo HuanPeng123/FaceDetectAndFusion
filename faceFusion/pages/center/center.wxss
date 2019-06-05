@@ -1,0 +1,91 @@
+/**center.wxss**/
+.centerTop{
+  height: 10%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  padding: 30rpx;
+  background-color: rgb(50, 177, 177);
+}
+
+.centerButton{
+  border-radius: 30rpx;
+  border-style: solid;
+  border-width: 2rpx;
+}
+.centerContent{
+  display: flex;
+  flex-direction: column; 
+}
+.centerLeftTab{
+  display: flex;
+  flex-direction: column; 
+  width: 30%;
+  height: 100%;
+  background-color: rgb(184, 199, 199);
+}
+.singleRightTab{
+  height: 50rpx;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+.tabText{
+  font-size: 25rpx;
+  font-family: '黑体';
+}
+
+.centerRightContent{
+  display: flex;
+  flex-direction: column; 
+  margin-bottom: 30rpx;
+}
+
+.blockLeft{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.blockRight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.centerBlock1{
+  display: flex;
+  flex-direction: row;
+  background-color: #c9daf8;
+  margin: 30rpx;
+  border-radius: 30rpx;
+}
+.centerBlock2{
+  display: flex;
+  flex-direction: row;
+  background-color: #d9d2e9;
+  margin: 30rpx;
+  border-radius: 30rpx;
+}
+.blockHeader{
+  font-size: 40rpx;
+  padding: 10rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+.blockDescription{
+  font-size: 30rpx;
+  padding: 20rpx;
+  margin-bottom: 40rpx;
+  
+}
+.centerBlockButton{
+  margin-top: 50rpx;
+}
+
+.centerSwiper{
+  width: 600rpx;
+  height: 400rpx;
+  margin: 20rpx 80rpx;
+}

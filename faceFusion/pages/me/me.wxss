@@ -1,0 +1,39 @@
+/* pages/me/me.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(50, 177, 177);
+  padding-bottom: 10rpx;
+}
+
+.userinfo-avatar {
+  width: 138rpx;
+  height: 138rpx;
+  margin: 10rpx;
+}
+
+.userinfo-nickname {
+  color: black;
+}
+
+.logBlock{
+  display: flex;
+  flex-direction: row;
+  margin: 30rpx;
+  padding: 30rpx;
+  background-color: rgba(150, 199, 240, 0.781);
+  border-radius: 30rpx;
+}
+
+.blockLeft{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.blockRight{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}

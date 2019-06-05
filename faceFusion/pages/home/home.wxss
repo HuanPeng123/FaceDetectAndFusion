@@ -1,0 +1,63 @@
+/**home.wxss**/
+.pic {
+  width: 1000rpx;
+  height: 488rpx;
+  margin: 20rpx;
+}
+
+.text {
+  color: #aaa;
+}
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeButton{
+  border-radius: 30rpx;
+  border-style: solid;
+  border-width: 2rpx;
+  margin-top: 20rpx;
+}
+.header{
+  padding-top: 20rpx;
+}
+.header1{
+  color: gray;
+  margin-left: 30rpx;
+  font-size: 40rpx;
+  font-weight: 900;
+  font-style: oblique;
+  font-family: '宋体';
+}
+
+.header2{
+  color: gray;
+  font-size: 50rpx;
+  font-weight: 900;
+  font-style: oblique;
+  font-family: '宋体';
+  padding-bottom: 20rpx;
+}
+
+.homeDescription{
+  margin: 50rpx;
+  padding: 30rpx;
+  background-color: #d2e0f8;
+}
+.headerBiggerText{
+  padding: 20rpx;
+  font-family: '宋体';
+   font-weight: 300;
+}
+.usermotto {
+  margin-top: 200px;
+}
+.swiper {
+  height: 500rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}

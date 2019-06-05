@@ -1,0 +1,40 @@
+.topRight{
+  margin: 20rpx;
+  position: fixed;
+  top: 10rpx;
+  right: 10rpx;
+}
+
+.selectButton{
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  border-width: 4rpx;
+}
+
+.camera{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.cameraCoverView{
+  width: 50%;
+  height: 40%;
+  border-style: dashed;
+  border-width: 3rpx;
+  position: fixed;
+  top: 20%;
+  right: 25%;
+}
+.cameraButtonView{
+  position: fixed;
+  bottom: 5%;
+  left: 40%
+}
+.cameraButton{
+  background-color: red;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  color: red;
+}
